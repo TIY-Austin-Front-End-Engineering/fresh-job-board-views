@@ -13,7 +13,6 @@ After completing this assignment, you should…
 * Understand how to create components with React
 * Understand the difference between JSX and HTML
 * Understand how to nest components with React
-* Understand how to use the Backbone Router with React
 
 
 ### Performance Objectives
@@ -22,8 +21,6 @@ After completing this assignment, you be able to effectively use
 
 * React components
 * JSX
-* Backbone Router
-
 
 ## Details
 
