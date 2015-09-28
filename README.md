@@ -85,7 +85,7 @@ Develop the following components using Sass and JSX. Your components should be f
 
 ## Notes
 
-This should be pretty mostly an HTML and CSS assignment, but within the context of React components.
+This should be pretty mostly an HTML and CSS assignment, but within the context of React components. All of the images that you need are located in the [images folder](/images);
 
 ## Additional Resources
 
