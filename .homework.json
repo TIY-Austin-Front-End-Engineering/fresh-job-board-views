@@ -5,7 +5,8 @@
     "description": "Create a job board using Backbone and React",
     "difficultyModes": [
         "Normal",
-        "Hard"
+        "Hard",
+        "Nightmare"
     ],
     "keywords": [
         "Backbone",
