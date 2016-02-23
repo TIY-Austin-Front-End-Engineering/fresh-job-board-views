@@ -3,28 +3,32 @@
 ## Description
 Create a job board using Backbone and React
 
+## Explorer Mode
 
-## Objectives
+Develop the following components using Sass and JSX. Your components should be flexible in size. Their width should stretch to fit any container that they are placed inside and their height should expand to fit whatever amount of content is put inside of them. Don't worry about replicating the striped background inside of your components.
 
-### Learning Objectives
+1. Job tips component
 
-After completing this assignment, you should…
+	![job tips](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/job-tips.jpg)
 
-* Understand how to create components with React
-* Understand the difference between JSX and HTML
-* Understand how to nest components with React
+2. Job form component. Hint: you will need to close out your form elements with a closing slash like so: `<input type="text" />`.
+
+	![job form](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/new-job.jpg)
+
+3. Navigation component
+
+	![navigation](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/nav.jpg)
+
+4. Create an add job page component that includes all of the three components that you have built above:
+
+	![add job](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/job-form-page.gif)
+
+##### Notes
+
+  > This should be pretty mostly an HTML and CSS assignment, but within the context of React components. All of the images that you need are located in the [images folder](https://github.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/tree/master/images);
 
 
-### Performance Objectives
-
-After completing this assignment, you be able to effectively use
-
-* React components
-* JSX
-
-## Details
-
-### Deliverables
+##### What to Submit
 
 * A repo containing at least:
   * `scripts/main.js`
@@ -35,84 +39,49 @@ After completing this assignment, you be able to effectively use
   * `styles/main.scss`
   * `index.html`
 
-### Requirements
-
-* Use JSX and React to create the components outlined below.
-* Your final add jobs page should be responsive.
-
-
-## Normal Mode
-
-Develop the following components using Sass and JSX. Your components should be flexible in size. Their width should stretch to fit any container that they are placed inside and their height should expand to fit whatever amount of content is put inside of them. Don't worry about replicating the striped background inside of your components.
-
-1. Job tips component
-
-	![job tips](images/job-tips.jpg)
-
-1. Job form component. Hint: you will need to close out your form elements with a closing slash like so: `<input type="text" />`.
-
-	![job form](images/new-job.jpg)
-
-1. Navigation component
-
-	![navigation](images/nav.jpg)
-
-1. Create an add job page component that includes all of the three components that you have built above:
-
-	![add job](images/job-form-page.gif)
-            
-## Hard Mode
+## Adventurer Mode
 
 Develop the following components using Sass and JSX. Your components should be flexible in size. Their width should stretch to fit any container that they are placed inside and their height should expand to fit whatever amount of content is put inside of them. Don't worry about replicating the striped background inside of your components.
 
 1. Job row component
 
-	![job row](images/job-row.jpg)
+	![job row](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/job-row.jpg)
 
 1. Filter box component
 
-	![filter box](images/filter-box.jpg)
+	![filter box](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/filter-box.jpg)
 
 1. Information box component
 
-	![info box](images/info-box.jpg)
+	![info box](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/info-box.jpg)
 
 1. Company box component
 
-	![company box](images/company-box.jpg)
+	![company box](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/company-box.jpg)
 
 1. Job details component
 
-	![job details](images/job-details.jpg)
-            
-## Nightmare Mode
+	![job details](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/job-details.jpg)
+
+## Epic Mode
 
 Build out components for the following pages using (nesting) the components that you have already created:
 
 1. Jobs List Page
 
-	![jobs list page](images/job-list-page.png)
+	![jobs list page](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/job-list-page.png)
 
 1. Jobs Details Page
 
-	![jobs details page](images/job-details-page.png)
+	![jobs details page](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/job-details-page.png)
 
 These pages should be responsive. See below for an example of how they should scale with screen size:
 
-![job list page gif](images/Fresh-Jobs.gif)
+![job list page gif](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/master/images/Fresh-Jobs.gif)
 
-Now use a Backbone router to allow switching back and forth between those pages via the navigation component.
+Now use a Backbone router to allow switching back and forth between those pages via the `Navigation` component.
 
 * Clicking on the "Fresh Jobs" text or logo in the navigation should take you to the jobs list page.
 * Clicking on the jobs link in the navigation should take you to the jobs list page.
 * Clicking on the "For Employers" link in the navigation should take you to the add job page.
 * Clicking on any of the job titles on the job list page should take you to the job details page.
-
-## Notes
-
-This should be pretty mostly an HTML and CSS assignment, but within the context of React components. All of the images that you need are located in the [images folder](/images);
-
-## Additional Resources
-
-* Read the notes on the React [render method](https://github.com/alarner/react-recipes/blob/master/respond-to-user-actions-simple/scripts/components/LikeButton.js)
-* [React in seven minutes](https://egghead.io/lessons/react-react-in-7-minutes)
